@@ -33,7 +33,9 @@ func main() {
 	if e != nil {
 		fmt.Println(e)
 	} else {
-		fmt.Println(s)
+		for _, v := range s {
+			fmt.Println(v)
+		}
 	}
 
 }
